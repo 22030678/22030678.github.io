@@ -1,0 +1,84 @@
+body {
+    background-image: url("user4.png"); 
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.logo_header li {
+  padding-right: 30px;
+}
+
+.logo_header{
+    padding-left: 500px;
+    font-size: 20px;
+    color: white;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding: 0px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+}
+
+.container_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.description{
+color: white;
+}
+
+.body_right{
+    padding-left: 25%;
+}
+
+.social_networks{
+display: flex;
+flex-direction:column;
+list-style: none;
+}
+
+.media{
+display: flex;
+flex-direction: row;
+margin-right: 20px;
+list-style: none;
+}
+.media li {
+display: flex;
+flex-direction: row;
+list-style: none;
+padding-right:20px;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+.img{
+    padding: 0px 12px;
+}
